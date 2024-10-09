@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health-coach</title>
+
+    <!-- fontawsome-CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap-CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar-section -->
+    <div id="navbar"></div>
+
+    <!-- swiper-section -->
+    <section class="swiper-section position-relative">
+        <div class="container swiper-container">
+            <div class="row d-flex justify-content-end w-100 mx-0">
+                <div class="col-12 col-lg-6 g-3">
+                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                        class="swiper mySwiper2-health position-relative">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide d-flex justify-content-center">
+                                <div class="slide-content">
+                                    <span>Welcome to Edublink</span>
+                                    <h1>Reclaim Your Body, <br> Your Confidence & <br> Your Life.</h1>
+                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt
+                                        mollit.</p>
+                                    <div class="find-more-btn">
+                                        <div class="slide-btn">
+                                            <a href="#" class="edu-btn">Find Courses
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex justify-content-center">
+                                <div class="slide-content">
+                                    <span>Welcome to Edublink</span>
+                                    <h1>Working with <br> Expart & Chaged <br> your Life</h1>
+                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt
+                                        mollit.</p>
+                                    <div class="find-more-btn">
+                                        <div class="slide-btn">
+                                            <a href="#" class="edu-btn">Find Courses
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide d-flex justify-content-center">
+                                <div class="slide-content">
+                                    <span>Welcome to Edublink</span>
+                                    <h1>We Can Help <br> Your Regnite That <br> speak.</h1>
+                                    <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt
+                                        mollit.</p>
+                                    <div class="find-more-btn">
+                                        <div class="slide-btn">
+                                            <a href="#" class="edu-btn">Find Courses
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 pe-lg-0 g-3">
+                    <div thumbsSlider="" class="swiper mySwiper-health">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide img-slide">
+                                <img src="../img/health-swiper.jpg" class="img-fluid" />
+                            </div>
+                            <div class="swiper-slide img-slide">
+                                <img src="../img/health-swiper2.jpg" class="img-fluid" />
+                            </div>
+                            <div class="swiper-slide img-slide">
+                                <img src="../img/health-swiper-3.jpg" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="direction-btn">
+            <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        </div>
+    </section>
+
+
+    <!-- Bootstrap-CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- JQuery-CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- js -->
+    <script src="../js/main.js"></script>
+
+    <Script>
+        $(document).ready(function () {
+            $('#navbar').load('../navbar/navbar1.html');
+        })
+    </Script>
+
+</body>
+
+</html>
